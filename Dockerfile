@@ -7,7 +7,7 @@ RUN \
   apt-get install -y \
   ruby
 
-RUN gem install wikipedia
+RUN gem install wikipedia-client
 
 RUN mkdir data
 COPY wiki_save.rb wiki_save.rb
