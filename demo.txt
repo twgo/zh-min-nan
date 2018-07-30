@@ -1,0 +1,50 @@
+679:1:Wikipedia:Upload log
+679:2:Wikipedia:Deletion log
+679:3:Main Page
+679:4:Wikipedia:Broken/Block log
+679:13:MediaWiki:Userlogin
+679:15:MediaWiki:Yourpassword
+679:19:MediaWiki:Lastmodified
+679:21:MediaWiki:Addedwatch
+679:22:MediaWiki:Affirmation
+679:24:MediaWiki:Yourrealname
+679:25:MediaWiki:Yourpasswordagain
+679:26:MediaWiki:Youremail
+679:27:MediaWiki:Yourname
+679:28:MediaWiki:Yournick
+679:29:MediaWiki:Wrongpassword
+679:30:MediaWiki:Wlnote
+679:40:MediaWiki:Powersearch
+679:42:MediaWiki:Remembermypassword
+679:43:MediaWiki:Newusersonly
+679:45:MediaWiki:Loginprompt
+679:46:MediaWiki:Emailforlost
+679:47:MediaWiki:Noarticletext
+679:48:MediaWiki:Perfdisabled
+679:49:MediaWiki:Returnto
+679:51:MediaWiki:Userexists
+679:53:MediaWiki:Tooltip-portal
+679:54:MediaWiki:Tooltip-currentevents
+679:55:MediaWiki:Tooltip-recentchanges
+679:56:MediaWiki:Recentchangestext
+679:57:MediaWiki:Rcnote
+679:58:MediaWiki:Rclistfrom
+679:61:MediaWiki:Showhideminor
+679:64:MediaWiki:Tooltip-whatlinkshere
+679:68:MediaWiki:Mypage
+679:69:MediaWiki:Toolbox
+679:73:MediaWiki:Move
+679:76:MediaWiki:Oldpassword
+679:77:MediaWiki:Newpassword
+679:78:MediaWiki:Retypenew
+679:79:MediaWiki:Emailflag
+679:80:MediaWiki:Prefslogintext
+679:82:MediaWiki:Prefs-help-userdata
+679:83:MediaWiki:Loginsuccess
+679:85:MediaWiki:Logouttext
+679:87:MediaWiki:Article
+679:88:Wikipedia:Siā-lí mn̂g-chhùi-kháu
+679:89:MediaWiki:Articlepage
+679:91:Wikipedia
+679:94:Tōng-bu̍t
+679:95:Koé-chí-bâ
