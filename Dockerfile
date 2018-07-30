@@ -9,10 +9,9 @@ RUN \
 
 RUN gem install wikipedia
 
-WORKDIR /usr/local/
 RUN mkdir data
 COPY wiki_save.rb wiki_save.rb
-COPY reslut.sh reslut.sh
+COPY result.sh result.sh
 
 RUN bash -c 'time ruby wiki_save.rb'
 RUN bash -c 'time bash -x result.sh'
