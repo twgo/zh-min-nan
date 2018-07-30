@@ -8,8 +8,9 @@ RUN \
   ruby
 
 RUN gem install wikipedia
-RUN mkdir data
 
+WORKDIR /usr/local/
+RUN mkdir data
 COPY wiki_save.rb wiki_save.rb
 COPY reslut.sh reslut.sh
 
