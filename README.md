@@ -1,2 +1,2 @@
 # zh-min-nan
-zh-min-nan wikipedia backups!
+zh-min-nan wikipedia backups!!
