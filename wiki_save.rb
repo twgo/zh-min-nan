@@ -10,10 +10,10 @@ Wikipedia.configure {
 File.open('index_720.txt', 'r').each_line do |line|
   begin
     data = line.chomp.split(/:/)
-    name = data[0..1]
+    number = data[0..1]
+    name = data[2..-1]
     page = Wikipedia.find(name)
-    File.open('data/' + name.join('__') + '.txt', 'w') {|f| f.write(page.summary) }
-    sleep 0.1
+    File.open('data/' + number.join('__') + '.txt', 'w') {|f| f.write(page.title+"\n"+page.summary) }
   rescue
   end
 end
