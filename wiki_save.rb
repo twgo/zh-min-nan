@@ -15,8 +15,7 @@ File.open(resource, 'r').each_line do |line|
     number = data[0..1]
     name = data[2..-1]
     page = Wikipedia.find(name)
-    File.open('data/' + number.join('__') + '.txt', 'w') {|f| f.write(page.title+"\n"+page.summary) }
-    File.open('data/' + number.join('__') + '_full.txt', 'w') {|f| f.write(page.title+"\n"+page.text) }
+    File.open('data/' + number.join('__') + '.txt', 'w') {|f| f.write(page.title+"\n"+page.text) }
   rescue
   end
 end
