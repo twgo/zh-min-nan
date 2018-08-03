@@ -2,7 +2,7 @@
 # gem install wikipedia-client
 require 'wikipedia'
 
-resource = 'input/index_720_10000.txt'
+resource = 'input/index_720_20000.txt'
 
 Wikipedia.configure {
   domain 'zh-min-nan.wikipedia.org'
