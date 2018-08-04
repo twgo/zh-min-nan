@@ -12,6 +12,8 @@ RUN gem install wikipedia-client
 RUN mkdir data
 COPY wiki_save.rb wiki_save.rb
 COPY result.sh result.sh
+
+# input update
 COPY input input
 
 RUN bash -c 'time ruby wiki_save.rb'
