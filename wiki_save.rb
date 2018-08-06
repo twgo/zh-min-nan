@@ -11,7 +11,7 @@ resource = 'input/index_720.txt'
 file_todo='input/index_720_todo.txt'
 
 File.open(resource, 'r').each_line.with_index do |line, index|
-  if (index < 200000) && (index > 100000)
+  if (index < 300000) && (index > 200000)
     File.open(file_todo, "a+") do |f|
       f.puts("#{line}")
     end
