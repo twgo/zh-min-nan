@@ -2,14 +2,23 @@
 # gem install wikipedia-client
 require 'wikipedia'
 
-resource = 'input/index_720_4-2.txt'
-
 Wikipedia.configure {
   domain 'zh-min-nan.wikipedia.org'
   path   'w/api.php'
 }
 
-File.open(resource, 'r').each_line do |line|
+resource = 'input/index_720.txt'
+file_todo='input/index_720_todo.txt'
+
+File.open(resource, 'r').each_line.with_index do |line, index|
+  if index < 100000
+    File.open(file_todo, "a+") do |f|
+      f.puts("#{line}")
+    end
+  end
+end
+
+File.open(file_todo, 'r').each_line do |line|
   begin
     data = line.chomp.split(/:/)
     number = data[0..1]
