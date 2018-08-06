@@ -13,9 +13,9 @@ RUN mkdir data
 COPY wiki_save.rb wiki_save.rb
 COPY result.sh result.sh
 
-# 5-1
+# 5-2
 COPY input input
 
-# 5-1
+# 5-2
 RUN bash -c 'time ruby wiki_save.rb'
 RUN bash -c 'time bash -x result.sh'
